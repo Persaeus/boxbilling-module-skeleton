@@ -2,7 +2,7 @@
 
 namespace Box\Mod\Skeleton;
 
-trait HasHooks
+abstract class AbstractService
 {
     protected static function hook()
     {

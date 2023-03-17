@@ -2,10 +2,8 @@
 
 namespace Box\Mod\Skeleton;
 
-class Service
+class Service extends AbstractService
 {
-     use HasHooks;
-
      public static function onBeforeAdminCreateClient()
      {
           return self::hook();
